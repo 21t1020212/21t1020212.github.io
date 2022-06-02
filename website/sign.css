@@ -1,0 +1,127 @@
+body
+{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+header
+{
+    background-color:rgb(159, 185, 235) ;
+    width: 1250px;
+    height:90px;
+    border-radius: 4px;
+    line-height: 80px;
+}
+header img 
+{ 
+    margin-top: 7px; margin-left: 30px;  float: left; margin-right: 20px;
+}
+header form 
+{
+    float: left; margin-top:10px ;margin-left:500px ;
+
+}
+header form input
+{
+    border-radius: 2px;height:27px;width: 170px; 
+    float:left;
+}
+header form button
+{
+    height: 35px; width: 100px; border-radius:2px; margin-left:20px;background-color: rgb(159, 185, 235);
+}
+nav
+{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 5px;
+   width: 1250px;
+}
+
+nav ul
+{
+    padding: 0; margin:0; list-style: none; background: rgb(83, 115, 156);
+}
+nav ul li
+{
+    display:inline-table; line-height: 40px; width: 150px;
+}
+nav ul li a
+{
+    color:#f1f1f1;text-align: center;text-decoration: none;display: block;
+}
+nav ul li a:hover
+{
+    background: rgb(177, 215, 238);
+}
+article
+{
+    widows: 750px;
+    height: 680px;
+    float: left;
+    margin-top: 5px;
+    
+}
+article img
+{
+    margin-top: 20px;
+}
+article h1
+{
+    color: yellowgreen; font-size: 30px;
+}
+article h2
+{
+    color: rgb(201, 100, 117); font-size: 30px;   
+}
+article button
+{
+    height: 50px; width: 150px; border-radius:10px; background-color: rgb(196, 148, 85);
+}
+article button a
+{
+    text-decoration: none; 
+}
+aside
+{
+   width:500px;
+   height: 680px;
+   float: left;
+   margin-top: 5px;
+   margin-left: 90px;
+}
+aside menu
+{
+  
+    width: 250px;height:20px;padding: 10px;
+    background: rgb(160, 149, 221);border-radius : 10px; color: white;font-size: 20px;margin-left: 100px;
+}
+aside  main
+{
+    float: left;width: 470px;height: 600px;border-radius : 10px; border:1px solid rgb(65, 88, 131);
+}
+aside main form
+{
+     margin-top: 10px;
+}
+aside input
+{
+    border-radius: 2px;height:40px;width: 350px;
+}
+aside button
+{
+    margin-left: 120px; margin-top: 50px; background-color: rgb(92, 92, 136); border-radius:4px; height: 40px;width: 100px;
+    color:rgb(247, 251, 252);font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  
+footer
+{
+    width: 97%;
+    height: 150px;
+    margin: 1% 1%;
+    float: left;
+    background-color:rgb(8, 40, 71);
+    color: rgb(191, 209, 221);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 17px;
+    border-radius:5px ;
+}
+footer table{
+    margin: 1% 2%;
+}
